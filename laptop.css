@@ -1,0 +1,158 @@
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.container{
+    position: relative;
+}
+.navbar{
+    height: 200px;
+    
+}
+.nav-logo{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+.nav-menu ul{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 40px;
+    right: 20px;
+}
+.navbar img{
+    width: 200px;
+    height: 180px;
+    
+}
+.nav-logo{
+    position: absolute;
+    top: -8px;
+    left: 50px;
+}
+.navbar ul li{ 
+   display: inline-block;
+   font-size: 1.5rem;
+}
+.navbar ul li a{
+    font-size: 1.5rem;
+}
+.nav-menu::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/* nav end */
+/* profile start */
+.profile-content h2{
+    background-color: rgb(52, 52, 136,0.8);
+    font-size: 4rem;
+    font-family: 'Satisfy', cursive;
+    color: white;
+    border-radius: 10px;
+    line-height: 70px;
+    width: 500px;
+    margin: 10px auto;
+}
+.profile-content h4{
+    margin: 10px auto;
+    width: 400px;
+    background-color: rgb(112, 128, 144,0.9);
+    padding: 15px 0;
+    color: black;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+}
+.profile-content p{
+    margin: 10px auto;
+    background-color: rgb(112, 128, 144,0.9);
+    padding: 15px 0;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+    width: 800px;
+}
+/* profile end */
+
+/* card start */
+.card-container{
+        position: relative;
+}
+.card-2{
+    position: absolute;
+    top: 0px;
+    left: 270px;
+}
+.card-3{
+    position: absolute;
+    top: 0px;
+    left: 540px;
+}
+.card-4{
+    position: absolute;
+    top: 0px;
+    left: 810px;
+}
+.card-5{
+    position: absolute;
+    top: 0px;
+    left: 1080px;
+}
+.card-container{
+    content: '';
+    display: table;
+    clear: both;
+}
+/* card end */
+
+
+/* address start */
+.location{
+    height: 450px;
+     position: relative;
+}
+.map{
+    height: 400px;
+    width: 800px;
+    border-radius: 10px;
+}
+.address{
+    height: 300px;
+    position: absolute;
+    right: 20px;
+    top: 70px;
+}
+/* address end */
+
+/* footer start */
+.footer{
+    position: relative;
+}
+.footer p{
+    font-size: 1.2rem;
+}
+.contact{
+    position: absolute;
+    top: 15px;
+}
+.btn{
+    height: 40px;
+    width: 45px;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    
+}
+/* footer end */

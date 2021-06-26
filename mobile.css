@@ -1,0 +1,263 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+
+}
+.navbar{
+    background-color: chocolate;
+    text-align: center;
+    color: white;
+}
+.navbar img{
+    width: 150px;
+    margin: 20px;
+    height: 140px;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+.nav-menu{
+    margin-bottom: 10px;
+}
+.nav-menu ul{
+    margin: 20px 10px;
+}
+.nav-menu ul li{
+    margin: 20px;
+    list-style: none;
+    padding: 10px;
+    border-radius: 10px;   
+}
+.nav-menu ul li:hover{
+    background-color: rgb(52, 52, 136);
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bolder;
+}
+.nav-menu::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/* navbar end */
+
+/* profile start */
+.profile{
+    background-image: url("https://images.unsplash.com/photo-1613896809181-3c1a5b6083a5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c2Nob29sJTIwY2FtcHVzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-width: 100%;
+    height: 600px;
+    text-align: center;
+    color: white;
+}
+.profile-content{
+    padding: 150px 10px;
+}
+.profile-content h2{
+    background-color: rgb(52, 52, 136,0.8);
+    font-size: 3.5rem;
+    font-family: 'Satisfy', cursive;
+    color: white;
+    border-radius: 10px;
+    line-height: 60px;
+}
+.profile-content h4{
+    margin: 10px auto;
+    width: 300px;
+    background-color: rgb(112, 128, 144,0.9);
+    padding: 15px 0;
+    color: black;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+}
+.profile-content p{
+    margin: 10px auto;
+    background-color: rgb(112, 128, 144,0.9);
+    padding: 15px 0;
+    color: white;
+    font-size: 0.8rem;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+    
+}
+/* profile end */
+
+/* card start */
+.card-container{
+    display: flex;
+    flex-direction: column;
+}
+.card-1,.card-2,.card-3,.card-4,.card-5{
+    background-color: #3E2723;
+    text-align: center;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 10px;
+    list-style-type: none;
+}
+.card-container img{
+   height: 200px;
+   width: 100%;
+    
+}
+.card-desc ol li{
+    list-style-type: none;
+}
+.card-container h1{
+    background-color: #006064;
+    color: yellow;
+}
+.card-1:hover{
+    box-shadow: 10px 10px 10px 5px black;
+    transform: translate(2);
+}
+.card-2:hover{
+    box-shadow: 10px 10px 10px 5px black;
+    transform: translate(2);
+}
+.card-3:hover{
+    box-shadow: 10px 10px 10px 5px black;
+    transform: translate(2);
+}
+.card-4:hover{
+    box-shadow: 10px 10px 10px 5px black;
+    transform: translate(2);
+}
+.card-5:hover{
+    box-shadow: 10px 10px 10px 5px black;
+    transform: translate(2);
+}
+/* card end */
+
+/* about us start */
+.about-us{
+    text-align: center;
+    margin: 20px 5px;
+} 
+.about-us h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+.about-us p{
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(0, 0, 0, 0.692);
+}
+/* about us end */
+
+/* contact form start */
+.contact-container{
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    background-color: darkslategray;
+    margin: 10px;
+    color: white;
+    padding: 3% 1%;
+    border-radius: 15px;
+}
+label{
+    display: block;
+    font-weight: bolder;
+}
+input,select,textarea{
+    width: 90%;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: rgb(167, 168, 96);
+    resize: none;
+    max-width: 500px;
+}
+input[type="submit"]{
+    background-color: aqua;
+    width: 150px;
+    font-size: 1.2rem;
+    color: black;
+    transition: .5s;
+    display: block;
+    margin: 10px auto;
+    
+}
+input[type="submit"]:hover{
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}
+#txta{
+    color: white;
+}
+/* contact form end */
+
+
+/* location start */
+.location{
+    background-color: rgb(24, 109, 112);
+    padding: 3% 1%;
+    margin: 10px;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+}
+.map{
+    height: 200px;
+    width: 400px;
+    border-radius: 10px;
+    
+}
+.address{
+    margin: 15px auto;
+    background-color: rgb(197, 197, 85);
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.address h3{
+    font-size: 1.5rem;
+}
+/* location end */
+
+/* footer start */
+.footer{
+    background-color: rgb(24, 24, 53);
+    margin: 10px;
+    color: white;
+    height: 70px;
+    position: relative;
+}
+.footer p{
+    margin-right: 10px;
+    padding-top: 25px;
+    text-align: right;
+    font-size: .8rem;
+}
+.contact{
+  padding: 0 0 50px 50px;
+  position: absolute;
+  bottom: -25px;
+  
+}
+.btn{
+    width: 25px;
+    height: 20px;
+    border-radius: 2px;
+    border: none;
+    transition: .5s;
+    margin: 0 10px;
+}
+.btn:hover{
+    background-color: black;
+    transform: scale(1.2);
+}
+
+/* footer end */
